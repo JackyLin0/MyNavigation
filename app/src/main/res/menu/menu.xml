@@ -1,60 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/broodpress"
-            android:checked="true"
-            android:icon="@drawable/bloodpress"
-            android:title="@string/bloodpress"/>
-        <item
-            android:id="@+id/bloodsugar"
-            android:icon="@drawable/bloodsugar"
-            android:title="@string/bloodsugar"/>
-        <item
-            android:id="@+id/weight"
-            android:icon="@drawable/weight"
-            android:title="@string/weight"/>
-        <item
-            android:id="@+id/sport"
-            android:icon="@drawable/sport"
-            android:title="@string/sport"/>
+        <item android:title="健康照護">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/broodpress"
+                    android:checked="true"
+                    android:icon="@drawable/bloodpress"
+                    android:title="@string/bloodpress"/>
+                <item
+                    android:id="@+id/bloodsugar"
+                    android:icon="@drawable/bloodsugar"
+                    android:title="@string/bloodsugar"/>
+                <item
+                    android:id="@+id/weight"
+                    android:icon="@drawable/weight"
+                    android:title="@string/weight"/>
+                <item
+                    android:id="@+id/sport"
+                    android:icon="@drawable/sport"
+                    android:title="@string/sport"/>
 
 
-        <item
-            android:id="@+id/sleep"
-            android:icon="@drawable/sleep"
-            android:title="@string/sleep"/>
+                <item
+                    android:id="@+id/sleep"
+                    android:icon="@drawable/sleep"
+                    android:title="@string/sleep"/>
 
-        <item
-        android:id="@+id/diet"
-        android:icon="@drawable/diet"
-        android:title="@string/diet"/>
+                <item
+                android:id="@+id/diet"
+                android:icon="@drawable/diet"
+                android:title="@string/diet"/>
 
-        <item
-            android:id="@+id/report"
-            android:icon="@drawable/report"
-            android:title="@string/report"/>
+                <item
+                    android:id="@+id/report"
+                    android:icon="@drawable/report"
+                    android:title="@string/report"/>
 
-        <item
-            android:id="@+id/lesion_care"
-            android:icon="@drawable/lesion_care"
-            android:title="@string/lesion_care"/>
+                <item
+                    android:id="@+id/lesion_care"
+                    android:icon="@drawable/lesion_care"
+                    android:title="@string/lesion_care"/>
+            </group>
+        </menu>
+        </item>
 
-        <item
-            android:id="@+id/schedule"
-            android:icon="@drawable/schedule"
-            android:title="@string/schedule"/>
+        <item android:title="一般功能">
+            <menu>
+            <group>
+                <item
+                    android:id="@+id/schedule"
+                    android:icon="@drawable/schedule"
+                    android:title="@string/schedule"/>
 
-        <item
-            android:id="@+id/information"
-            android:icon="@drawable/information"
-            android:title="@string/information"/>
+                <item
+                    android:id="@+id/information"
+                    android:icon="@drawable/information"
+                    android:title="@string/information"/>
 
-        <item
-            android:id="@+id/health_education"
-            android:icon="@drawable/health_education"
-            android:title="@string/health_education"/>
+                <item
+                    android:id="@+id/health_education"
+                    android:icon="@drawable/health_education"
+                    android:title="@string/health_education"/>
+            </group>
+            </menu>
+        </item>
 
+        <item android:title="設定">
+            <menu>
+            <group>
         <item
             android:id="@+id/persional_information"
             android:icon="@drawable/persional_information"
@@ -69,7 +84,8 @@
             android:id="@+id/logout"
             android:icon="@drawable/logout"
             android:title="@string/logout"/>
-
-
+            </group>
+            </menu>
+        </item>
     </group>
 </menu>
